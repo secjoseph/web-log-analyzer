@@ -115,20 +115,6 @@ python gen/dataset_generator.py --duration 72 --normal-rate 5000 --output logs/l
 
 The generator will automatically randomize attack parameters within realistic ranges to create varied and realistic attack patterns. Each run will produce slightly different attack characteristics while maintaining realistic attack patterns.
 
-## Project Structure
-
-```
-log_analyzer/
-│
-├── logs/                     # Sample logs
-├── parsed_logs.csv           # Cleaned DataFrame
-├── main.py                   # Main logic
-├── parser.py                 # Log parsing logic
-├── detector.py               # Attack detection rules
-├── visualizer.py            # Visualization code
-├── alerts.txt               # Output alerts
-└── README.md
-```
 
 ## Dependencies
 
