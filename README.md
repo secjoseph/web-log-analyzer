@@ -23,7 +23,7 @@ A Python-based tool for analyzing server logs to detect security threats and vis
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/secjoseph/web-log-analyzer.git
 cd log-analyzer
 ```
 
