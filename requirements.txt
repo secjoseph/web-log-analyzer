@@ -1,0 +1,10 @@
+pandas>=1.3.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+numpy>=1.20.0
+scikit-learn>=0.24.0
+faker>=18.0.0  # For generating synthetic data
+python-dateutil>=2.8.2
+argparse>=1.4.0
+tqdm>=4.65.0  # For progress bars
+colorama>=0.4.6  # For colored console output 
