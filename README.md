@@ -156,9 +156,6 @@ log_analyzer/
 - numpy
 - python-dateutil
 
-## License
-
-MIT License
 
 ## Contributing
 
