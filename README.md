@@ -1,23 +1,6 @@
 # Web Log Analyzer - Security Threat Detection Tool
 
-A Python-based tool for analyzing server logs to detect security threats and visualize patterns.
-
-## Features
-
-- **Log Ingestion**: Parse Apache/Nginx access logs
-- **Threat Detection**:
-  - Brute-force login attacks
-  - Directory brute-force attempts
-  - DDoS attack patterns
-  - Malicious payload detection
-- **Visualization**:
-  - Request patterns
-  - Suspicious activity timelines
-  - Status code distributions
-- **Alerting System**:
-  - Console alerts
-  - Alert logging to file
-  - (Optional) Email/Telegram notifications
+A Python-based security log analysis tool that detects and visualizes various web application attacks including brute force attempts, SQL injections, XSS, and path traversal attacks. It features synthetic log generation, real-time threat detection, and comprehensive attack pattern visualization. While well-structured and easy to use, the tool relies on rule-based detection and lacks advanced techniques like anomaly detection or machine learning. It supports only standard log formats and offers basic visualizations without an interactive dashboard, making it best suited for educational use, lightweight monitoring, or prototyping rather than enterprise-scale deployment.
 
 ## Installation
 
